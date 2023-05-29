@@ -1,0 +1,70 @@
+#root {
+
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    --black: #36454F;
+    --white: whitesmoke;
+    --highlight: yellow;
+    --navy-blue: #1c305c;
+    --yellow: #f1c40f;
+    --brown: #7e4b1c;
+    background: #1c305c5c;
+    ;
+
+}
+.demo-logo{
+    width: 60px;
+    height: 100%;
+
+}
+.demo-logo img{
+    width: 100%;
+    height: 100%;
+}
+#root > section > header > div:nth-child(3) > ul > li:nth-child(5) > div > span > a{
+    color:yellow;
+}
+
+.suggestion-item {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.suggestion-item:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+.suggestion-item:hover {
+    cursor: pointer;
+    cursor: hand; /* 兼容旧版IE浏览器 */
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.password-requirements {
+    margin-top: 16px;
+    padding-left: 50px;
+    margin-bottom: 1rem;
+}
+
+.password-requirements dl {
+    margin: 0;
+    padding: 0;
+}
+
+.password-requirements dt {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.password-requirements dd {
+    margin-left: 16px;
+    margin-bottom: 4px;
+}
+.search{
+    text-align: center;
+}
